@@ -1,0 +1,30 @@
+
+development:
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  host: localhost
+  encoding: unicode
+  username: postgres
+  password: postgres
+  database: Jordandb
+
+test:
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  host: localhost
+  encoding: unicode
+  username: postgres
+  password: postgres
+  database: testJordandb
+
+production:
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  host: localhost
+  encoding: unicode
+  username: postgres
+  password: postgres
+  database: prodJordandb

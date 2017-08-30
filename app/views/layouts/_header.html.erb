@@ -1,0 +1,15 @@
+<header>
+    <div class="container">
+      <%= link_to "EventBright", root_path , id: "logo" %>
+       <div class="topnav"></div>
+        <nav>
+          <ul>
+            <li><%= link_to "Home", root_path, class: "nav" %></li>
+            <li><%= link_to "Help", help_path, class: "nav" %></li>
+            <li><%= link_to "Log In", login_path , class: "nav" %></li>
+            <li><%= link_to "Log Out", logout_path, class: "nav", method: "delete" %></li>
+         </ul>
+        </nav>
+       </div>
+      </div>
+</header>

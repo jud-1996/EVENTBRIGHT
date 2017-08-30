@@ -1,0 +1,16 @@
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><% yield(:title) %></title>    
+    </head>
+    <body>
+        <div class="homecontainer">
+        <h1 class="homeheader">Welcome to EventBright</h1>
+        <h3>This is the home page for the event bright application</h3>
+        <%= link_to "Sign up now!", signup_path, class: "signupbuttons" %>
+        </div>
+    </body>
+</html>
+        
+
